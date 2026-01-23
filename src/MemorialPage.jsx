@@ -2,12 +2,33 @@ import flyer from "./flyer.jpeg";
 
 export default function MemorialPage() {
   return (
-    <main style={{
-      maxWidth: "700px",
-      margin: "auto",
-      padding: "20px",
-      fontFamily: "Arial, sans-serif"
-    }}>
+    <>
+      <style>
+        {`
+          @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          .fade-in {
+            animation: fadeIn 1.5s ease-out;
+          }
+          .fade-in-delay {
+            animation: fadeIn 1.5s ease-out 0.5s both;
+          }
+          .fade-in-delay-2 {
+            animation: fadeIn 1.5s ease-out 1s both;
+          }
+        `}
+      </style>
+      <main style={{
+        maxWidth: "700px",
+        margin: "auto",
+        padding: "20px",
+        fontFamily: "Arial, sans-serif",
+        background: "linear-gradient(to bottom, #f5f5f5, #e0e0e0)",
+        minHeight: "100vh",
+        animation: "fadeIn 2s ease-in-out"
+      }}>
       <h1 style={{ textAlign: "center" }}>In Loving Memory</h1>
       
       <img src={flyer} alt="Memorial Flyer" style={{
