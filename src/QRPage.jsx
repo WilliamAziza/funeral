@@ -1,7 +1,7 @@
 import QRCode from "react-qr-code";
 
 export default function QRPage() {
-  const link = "http://localhost:5175/memorial";
+  const link = "https://funeral-pi.vercel.app/memorial";
 
   return (
     <div style={{
