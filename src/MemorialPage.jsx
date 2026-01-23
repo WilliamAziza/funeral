@@ -1,3 +1,5 @@
+import flyer from "./flyer.jpeg";
+
 export default function MemorialPage() {
   return (
     <main style={{
@@ -6,7 +8,7 @@ export default function MemorialPage() {
       padding: "20px",
       fontFamily: "Arial, sans-serif"
     }}>
-      <img src="./flyer.jpeg" alt="Memorial Flyer" style={{
+      <img src={flyer} alt="Memorial Flyer" style={{
         width: "100%",
         maxWidth: "500px",
         height: "auto",
