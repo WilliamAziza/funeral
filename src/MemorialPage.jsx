@@ -62,5 +62,6 @@ export default function MemorialPage() {
         Rest in perfect peace
       </p>
     </main>
+    </>
   );
 }
