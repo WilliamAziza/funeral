@@ -8,6 +8,8 @@ export default function MemorialPage() {
       padding: "20px",
       fontFamily: "Arial, sans-serif"
     }}>
+      <h1 style={{ textAlign: "center" }}>In Loving Memory</h1>
+      
       <img src={flyer} alt="Memorial Flyer" style={{
         width: "100%",
         maxWidth: "500px",
@@ -17,7 +19,7 @@ export default function MemorialPage() {
         borderRadius: "8px",
         boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
       }} />
-      <h1 style={{ textAlign: "center" }}>In Loving Memory</h1>
+      
 
       <h2 style={{ textAlign: "center" }}>Late Nana Kofi Mensah</h2>
       <p style={{ textAlign: "center", fontStyle: "italic" }}>
