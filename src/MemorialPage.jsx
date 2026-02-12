@@ -3,8 +3,8 @@ import flyer from "./flyer.jpeg";
 
 export default function MemorialPage() {
   const [guestBookMessages, setGuestBookMessages] = useState([
-    { name: "John Doe", message: "Rest in peace, Nana. You will be missed." },
-    { name: "Jane Smith", message: "Thinking of the family during this difficult time." }
+    { name: "Bright Arthur", message: "Rest in peace, Nana. You will be missed." },
+    { name: "Kobby Fredrick", message: "Thinking of the family during this difficult time." }
   ]);
   const [newMessage, setNewMessage] = useState({ name: "", message: "" });
 
